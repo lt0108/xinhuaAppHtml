@@ -1,0 +1,120 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>首页</title>
+<link rel="stylesheet" type="text/css" href="theme/hum.css">
+<script src="js/jquery.js"></script>
+<script src="js/swipe.js"></script>
+<script src="js/rainbow.min.js"></script>
+<script src="js/copy.js"></script>
+
+</head>
+<body>
+<style>
+/*init
+body {font:12px "Microsoft YaHei","\u5FAE\u8F6F\u96C5\u9ED1","Arial","SimSun","\u5B8B\u4F53"; color:#999;}
+body,form,p,ul,ol,li{margin:0;padding:0;color:#333}
+body,td,th,input{font-size:medium;line-height:1.5em}
+h1,h2,h3,h4{font-size:100%}
+ul,ol{list-style:none}
+a{color:#000;text-decoration:none}
+table{width:100%}
+table td{padding:3px 10px;border-collapse:collapse}
+
+.clearfix{zoom:1}
+.clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden}*/
+
+/*头部
+header { display:block;  background:#3399FF; padding:12px 0 12px 20px;}
+header img { width:20px;height:25px;vertical-align: top;}
+header span { color:#fff; font-size:20px; line-height:25px; margin-left:10px;}
+
+.wrap_outer { width:100%;}*/
+
+body { position: relative;}
+.s-head-tab { font-size: 17px; font-weight: 500; line-height: 44px;color: #fff; white-space: nowrap;}
+.s-head-tab a { padding: 0 5px; display: inline-block; line-height: 38px;}
+.s-head-tab a.current {border-bottom:3px solid #F60C0C; color:#F60C0C;}
+.s-head-txt { font-size:15px;}
+ </style>
+
+
+	
+
+	
+    <header class="ui-toolbar">
+        <a class="ui-icon icon-list fn-left"></a>
+        <!--<a class="ui-icon icon-search fn-right"></a>-->
+		<button class="ui-toolbar-btn ui-btn-link fn-right">
+			<span class="s-head-txt">语种</span>
+			<span class="ui-icon icon-search"></span>
+		</button>
+        
+		<div class="s-head-tab fn-left">
+			<a href="#">素材库</a>
+			<a href="#">待编库</a>
+			<a href="#" class="current">成品库</a>
+		</div>
+    </header>
+
+	<div class="ui-slider fn-clear" >
+		<div class="ui-slider-media" id="mySwipe1">
+			<div class="ui-slider-warp" >
+				<div>
+					<img src="temp/slider-01.jpg" class="img-responsive"/>        
+				</div>
+				<div>
+					<img src="temp/slider-02.jpg" class="img-responsive"/>        
+				</div>
+				<div>
+					<img src="temp/slider-03.jpg" class="img-responsive"/>        
+				</div>
+			</div>
+		</div>
+		<div class="ui-slider-desc">
+			<div class="ui-slide-desc-text fn-left">
+				<p>冲50送送50.</p>
+				<p class="fn-hide">冲100送送100.</p>
+				<p class="fn-hide">冲1000送送1000.</p>
+			</div>
+			<div class="ui-slide-desc-icon fn-right">
+				<em class="active">•</em>
+				<em>•</em>
+				<em>•</em>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="footer-icon">
+		
+	</div>
+
+	<nav class="ui-navbar">
+		<a class="ui-navbar-item active" href="javascript:void(0);">
+			<span class="ui-icon icon-home"></span>
+			<span class="ui-navbar-item-label">首页</span>
+		</a>
+		<a class="ui-navbar-item" href="javascript:void(0);">
+			<span class="ui-icon icon-person"></span>
+			<span class="ui-navbar-item-label">服务</span>
+		</a>
+		<a class="ui-navbar-item" href="javascript:void(0);">
+			<span class="ui-icon icon-star-filled"></span>
+			<span class="ui-navbar-item-label">套餐</span>
+		</a>
+		<a class="ui-navbar-item" href="javascript:void(0);">
+			<span class="ui-icon icon-search"></span>
+			<span class="ui-navbar-item-label">优惠</span>
+		</a>
+		<a class="ui-navbar-item" href="javascript:void(0);">
+			<span class="ui-icon icon-gear"></span>
+			<span class="ui-navbar-item-label">更多</span>
+		</a>
+	</nav> 
+	
+  
+ </body>
+</html>
